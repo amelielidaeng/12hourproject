@@ -1,0 +1,45 @@
+.header {
+    border: red solid 2px; //REMOVE
+    max-width: 1700px;
+    min-height: 820px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url(/images/section1-background.png);
+
+    &__container {
+        border: solid blue 1px; //REMOVE
+        max-width: 372px;
+        min-height: 72px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    &__title {
+        font-family: "Josefin Sans", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 26px;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__tagline  {
+        font-family: Josefin Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 6.82px;
+        color: #FFFFFF;
+    }
+
+    &__scroll {
+        color: white;
+    }
+}
