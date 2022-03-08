@@ -1,5 +1,4 @@
 .destination {
-    border: solid 2px blue;
     height: 1400px;
     display: flex;
     flex-direction: column;
@@ -18,7 +17,7 @@
         mix-blend-mode: normal;
         opacity: 0.9;
         width: 543px; 
-        height: 374px; /*bigger container so button doesn't fall out*/
+        height: 374px; 
     }
 
     &__headline-small {
