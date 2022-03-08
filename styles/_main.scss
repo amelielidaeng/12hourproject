@@ -5,7 +5,18 @@ body {
     flex-direction: column;
 }
 
+
+//Need to add hover and after
 a {
     text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+.button {
+    background-color: #5474FD;
     color: white;
 }

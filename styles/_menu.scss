@@ -1,11 +1,12 @@
 .menu {
+    background-color: #5474FD;
     display: flex;
     flex-direction: row;
-    max-width: 1700px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1770px;
     width: 100%;
     min-height: 83px;
-    border: yellow solid 3px;
-    justify-content: space-around;
 
     &__logo {
         font-family: "Josefin Sans", sans-serif;
@@ -13,7 +14,6 @@
         font-weight: bold;
         font-size: 24px;
         line-height: 26px;
-        align-items: center;
         letter-spacing: 2.4px;
         color: #FFFFFF;
     }
@@ -28,7 +28,10 @@
         font-size: 14px;
         line-height: 26px;
         display: flex;
-        align-items: center;
         color: #FFFFFF;
+        
+        .list__item {
+            padding-right: 3em;
+        }
     }
-}
+} 

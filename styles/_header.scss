@@ -1,16 +1,13 @@
 .header {
-    border: red solid 2px; //REMOVE
-    max-width: 1700px;
+    max-width: 1770px;
     min-height: 820px;
     text-align: center;
+    justify-content: space-evenly;
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-direction: column;
     background-image: url(/images/section1-background.png);
 
     &__container {
-        border: solid blue 1px; //REMOVE
         max-width: 372px;
         min-height: 72px;
         display: flex;
@@ -41,4 +38,33 @@
     &__scroll {
         color: white;
     }
+/*
+    &__form {
+        width: 653px;
+        height: 63px;
+        border: 1px solid red;
+        display: inline;
+        align-self: center;
+        flex-direction: row;
+    }
+
+    &__input { 
+        max-width: 500px;
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 2.8px;
+        color: #999999;
+    }
+
+    .button {
+        background-color: #5474FD;
+        color: white;
+        width: 153px; 
+        height: 60px;
+    } 
+    */
 }
