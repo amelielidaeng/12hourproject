@@ -1,0 +1,42 @@
+.icon {
+    border: solid red 2px;
+    background-color: #333333;
+    color: white;
+    max-width: 1770px;
+    width: 100%;
+    min-height: 340px;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "Aleo", serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 26px;
+        color: #E8E8E8;
+    }
+}
+
+.icon__container-1 {
+    width: 244px;
+    height: 163px;
+    border: red solid 2px; 
+}
+
+.icon__container-2 {
+    width: 230px;
+    height: 161px;
+    border: red solid 2px;
+}
+
+.icon__container-3 {
+    width: 245px;
+    height: 174px;
+    border: red solid 2px;
+}
