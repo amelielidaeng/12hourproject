@@ -1,5 +1,4 @@
 .icon {
-    border: solid red 2px;
     background-color: #333333;
     color: white;
     max-width: 1770px;
@@ -7,6 +6,7 @@
     min-height: 340px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
     &__container {
         display: flex;
@@ -26,17 +26,14 @@
 .icon__container-1 {
     width: 244px;
     height: 163px;
-    border: red solid 2px; 
 }
 
 .icon__container-2 {
     width: 230px;
     height: 161px;
-    border: red solid 2px;
 }
 
 .icon__container-3 {
     width: 245px;
     height: 174px;
-    border: red solid 2px;
 }
