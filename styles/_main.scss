@@ -1,12 +1,19 @@
+$mobile: 320px; 
+$tablet: 768px;
+$desktop: 1000px; 
+
 body {
     margin: auto; 
     max-width: 1770px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
-
-//Need to add hover and after
 a {
     text-decoration: none;
     color: white;
@@ -14,11 +21,6 @@ a {
 
 a:hover {
     opacity: 50%;
-}
-
-.button {
-    background-color: #5474FD;
-    color: white;
 }
 
 .headline {

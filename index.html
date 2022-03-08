@@ -8,39 +8,42 @@
     <script src="https://kit.fontawesome.com/3891906d5e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/font-awesome.min.css">
 
 </head>
 <body>
+    <!--first section-->
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">BHROMAON</h1>
+            <h3 class="header__tagline">Safe Travel Anywhere</h3>
+        </div>
+        <div class="header__form">
+            <form action="">
+              <input class="header__input" type="text" placeholder="Search Your Travel Destination" name="Submit">
+              <input class="submit" name="submit" type="submit" value="Search">
+            </form>
+          </div>
+        <div class="header__scroll">
+            <p>Scroll Down</p>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </header>
     <main>
-        <!--first section-->
-        <!--too large to be considered and actual header therefore inside main-->
-        <section class="header">
-            <div class="header__container">
-                <h1 class="header__title">BHROMAON</h1>
-                <h3 class="header__tagline">Safe Travel Anywhere</h3>
-            </div>
-            <div class="header__form">
-                <form action="">
-                  <input class="header__input" type="text" placeholder="Search Your Travel Destination" name="Submit">
-                  <button class="button button__submit" type="submit">Submit</button>
-                </form>
-              </div>
-            <div class="header__scroll">
-                <p>Scroll Down</p>
-                <i class="fa-solid fa-angle-down"></i>
-            </div>
-            <nav class="menu">
-                <p class="menu__logo">BHROMAON</p>
-                <ul class="menu__list">
-                    <li class="list__item"><a href="#">WHO WE ARE</a></li>
-                    <li class="list__item"><a href="#">WHAT WE DO</a></li>
-                    <li class="list__item"><a href="#">TRAVEL WITH US</a></li>
-                    <li class="list__item"><a href="#">CONTACT US</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav class="menu" id="nav-bar">
+            <a href="#" class="toggle">
+                <i class="fas fa-ellipsis-h"></i>
+            </a>
+            <p class="menu__logo">BHROMAON</p>
+            <ul class="menu__list">
+                <li class="list__item"><a href="#">WHO WE ARE</a></li>
+                <li class="list__item"><a href="#">WHAT WE DO</a></li>
+                <li class="list__item"><a href="#">TRAVEL WITH US</a></li>
+                <li class="list__item"><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
         <!--second section-->
         <section class="info">
             <div class="info__container container-1"> <!--first container-->
