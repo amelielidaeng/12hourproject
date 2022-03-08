@@ -17,11 +17,12 @@
         background: #232323;
         mix-blend-mode: normal;
         opacity: 0.9;
-        width: 374px; 
-        height: 275px; /*bigger container so button doesn't fall out*/
+        width: 543px; 
+        height: 374px; /*bigger container so button doesn't fall out*/
     }
 
     &__headline-small {
+        padding: 5px;
         font-family: "Josefin Sans", sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -32,6 +33,7 @@
     }
 
     &__headline-big {
+        padding: 5px;
         font-family: "Josefin Sans", sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -41,6 +43,7 @@
     }
 
     &__text {
+        padding: 5px;
         font-family: "Josefin Sans", sans-serif;
         font-style: normal;
         font-weight: normal;
