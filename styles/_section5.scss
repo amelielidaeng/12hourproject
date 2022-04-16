@@ -1,6 +1,6 @@
 $mobile: 320px; 
 $tablet: 768px;
-$desktop: 1000px; 
+$desktop: 1200px;
 
 .review {
     background-image: url(/images/section5-background.png);
@@ -25,7 +25,7 @@ $desktop: 1000px;
         padding: 2em;
     }
 
-    &__cont { /*cont for container - had issues with sass when using __container on multiple classes*/
+    &__cont { 
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -34,24 +34,30 @@ $desktop: 1000px;
     &__image {
         max-width: 445px; 
         width: 70%;
-        min-height: 284px;
+        height: 284px;
     }
 
+    /* removed class quote - will change to pseudo element
     &__quote {
         max-width: 668px;
         width: 100%;
-        min-height: 284px;
+        height: 284px;
         background-color: #333333;
     }
+    */
 
     &__text {
-        padding: 30px;
+        padding: 28px;
         font-family: "Josefin Sans", sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 24px;
         color: #E8E8E8;
+
+        @media screen and(min-width: 1000px) {
+            padding: 24px;
+        }
     }
 
     &__headline-small {
@@ -63,5 +69,10 @@ $desktop: 1000px;
         font-size: 20px;
         line-height: 26px;
         color: #FEFEFE;
+
+        @media screen and (min-width: 1000px) {
+            padding-top: 10px;
+            font-size: 18px;
+        }
     }
 }
