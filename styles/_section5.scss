@@ -29,22 +29,26 @@ $desktop: 1200px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+        } 
     }
 
     &__image {
         max-width: 445px; 
         width: 70%;
         height: 284px;
+
+        @media screen and (max-width: 1000px) {
+            margin: 0 auto;
+        } 
     }
 
-    /* removed class quote - will change to pseudo element
     &__quote {
-        max-width: 668px;
-        width: 100%;
-        height: 284px;
+        font-size: 72px;
         background-color: #333333;
     }
-    */
 
     &__text {
         padding: 28px;
@@ -54,10 +58,6 @@ $desktop: 1200px;
         font-size: 16px;
         line-height: 24px;
         color: #E8E8E8;
-
-        @media screen and(min-width: 1000px) {
-            padding: 24px;
-        }
     }
 
     &__headline-small {
