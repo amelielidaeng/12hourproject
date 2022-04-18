@@ -20,7 +20,8 @@ a {
 }
 
 a:hover {
-    opacity: 50%;
+    opacity: 75%;
+    background-color: rgb(50, 100, 253);
 }
 
 .headline {
@@ -33,5 +34,6 @@ a:hover {
 }
 
 .button:hover {
-    opacity: 75%;
+//    opacity: 75%;
+    background-color: #5474fd;
 }
