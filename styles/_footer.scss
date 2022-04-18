@@ -1,6 +1,6 @@
 $mobile: 320px; 
 $tablet: 768px;
-$desktop: 1000px; 
+$desktop: 1200px;
 
 .footer { 
     background-color: #232323;
@@ -47,4 +47,8 @@ $desktop: 1000px;
         display: flex;
         padding-left: 10px;
     }
+}
+
+.sm-icon {
+    margin: 10px;
 }

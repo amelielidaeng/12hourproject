@@ -4,7 +4,6 @@
 
     &__explore {
         background-color: #5474FD;
-        opacity: 75%;
         max-width: 228px;
         min-height: 63px;
     }
@@ -14,11 +13,6 @@
         height: 63px;
         background-color: #5474FD;
         margin-top: 15px;
-    }
-
-    &__submit {
-        width: 153px; 
-        height: 60px;
     }
 }
 
@@ -36,4 +30,9 @@
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #FFFFFF;
+
+    
+    @media screen and (max-width: $tablet) {
+        width: 100px;
+    }
 }

@@ -1,6 +1,6 @@
 $mobile: 320px; 
 $tablet: 768px;
-$desktop: 1000px; 
+$desktop: 1200px;
 
 body {
     margin: auto; 
@@ -30,4 +30,8 @@ a:hover {
     font-size: 36px;
     line-height: 26px;
     color: #FFFFFF;
+}
+
+.button:hover {
+    opacity: 75%;
 }
