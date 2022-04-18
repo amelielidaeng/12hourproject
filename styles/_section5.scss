@@ -29,6 +29,7 @@ $desktop: 1200px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        max-width: 90%;
 
         @media screen and (max-width: 1000px) {
             flex-direction: column;
@@ -43,11 +44,6 @@ $desktop: 1200px;
         @media screen and (max-width: 1000px) {
             margin: 0 auto;
         } 
-    }
-
-    &__quote {
-        font-size: 72px;
-        background-color: #333333;
     }
 
     &__text {
@@ -70,7 +66,7 @@ $desktop: 1200px;
         line-height: 26px;
         color: #FEFEFE;
 
-        @media screen and (min-width: 1000px) {
+        @media screen and(min-width: 1000px) {
             padding-top: 10px;
             font-size: 18px;
         }
